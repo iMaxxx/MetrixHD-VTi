@@ -1,4 +1,4 @@
-OpenStore - www.open-store.net
+MetrixHD for VTi - www.open-store.net
 =========
 
 ## Screenshots

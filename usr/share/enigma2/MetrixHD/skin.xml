@@ -1,4 +1,4 @@
-807<skin>
+<skin>
   <!-- MetrixHD v2.5 by iMaxxx | optimized for VTI 6.x -->
   <!-- recommended to use with XPicons -->
   <!-- You can modify and redistribute it as long as you keep this license and the original author for the skin and all of your modifications -->
@@ -188,43 +188,43 @@
 
 
 
-  <ePixmap alphatest="blend" pixmap="MetrixHD/ico_dolby_off.png" position="1030,671" size="34,23" zPosition="1" />
-  <widget alphatest="blend" pixmap="MetrixHD/ico_dolby_on.png" position="1030,671" render="Pixmap" size="34,23" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_dolby_off.png" position="1030,671" size="34,23" zPosition="1" />
+  <widget alphatest="blend" pixmap="MetrixHD/icons/ico_dolby_on.png" position="1030,671" render="Pixmap" size="34,23" source="session.CurrentService" zPosition="2">
     <convert type="ServiceInfo">IsMultichannel</convert>
     <convert type="ConditionalShowHide" />
   </widget>
 
-  <ePixmap alphatest="blend" pixmap="MetrixHD/ico_format_off.png" position="1141,671" size="43,23" zPosition="1" />
-  <widget alphatest="blend" pixmap="MetrixHD/ico_format_on.png" position="1141,671" render="Pixmap" size="43,22" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_format_off.png" position="1141,671" size="43,23" zPosition="1" />
+  <widget alphatest="blend" pixmap="MetrixHD/icons/ico_format_on.png" position="1141,671" render="Pixmap" size="43,22" source="session.CurrentService" zPosition="2">
     <convert type="ServiceInfo">IsWidescreen</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <ePixmap alphatest="blend" pixmap="MetrixHD/ico_txt_off.png" position="986,671" size="30,23" zPosition="1" />
-  <widget alphatest="blend" pixmap="MetrixHD/ico_txt_on.png" position="986,671" render="Pixmap" size="30,23" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_txt_off.png" position="986,671" size="30,23" zPosition="1" />
+  <widget alphatest="blend" pixmap="MetrixHD/icons/ico_txt_on.png" position="986,671" render="Pixmap" size="30,23" source="session.CurrentService" zPosition="2">
     <convert type="ServiceInfo">HasTelext</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <ePixmap alphatest="blend" pixmap="MetrixHD/ico_hd_off.png" position="1080,670" size="49,24" zPosition="1" />
-  <widget alphatest="blend" pixmap="MetrixHD/ico_hd_on.png" position="1080,670" render="Pixmap" size="49,24" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_hd_off.png" position="1080,670" size="49,24" zPosition="1" />
+  <widget alphatest="blend" pixmap="MetrixHD/icons/ico_hd_on.png" position="1080,670" render="Pixmap" size="49,24" source="session.CurrentService" zPosition="2">
     <convert type="ServiceInfo">VideoWidth</convert>
     <convert type="ValueRange">721,1980</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <ePixmap alphatest="blend" pixmap="MetrixHD/ico_crypt_off.png" position="1200,671" size="37,23" zPosition="1" />
-  <widget alphatest="blend" pixmap="MetrixHD/ico_crypt_on.png" position="1200,671" render="Pixmap" size="37,23" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_crypt_off.png" position="1200,671" size="37,23" zPosition="1" />
+  <widget alphatest="blend" pixmap="MetrixHD/icons/ico_crypt_on.png" position="1200,671" render="Pixmap" size="37,23" source="session.CurrentService" zPosition="2">
     <convert type="ServiceInfo">IsCrypted</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <ePixmap alphatest="blend" pixmap="MetrixHD/ico_hbbtv_off.png" position="907,670" size="64,24" zPosition="1" />
-  <ePixmap alphatest="blend" pixmap="MetrixHD/subtitle_off.png" position="862,671" size="31,23" />
-  <widget alphatest="blend" pixmap="MetrixHD/subtitle_on.png" position="862,671" render="Pixmap" size="31,23" source="session.CurrentService" zPosition="1">
+  <ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_hbbtv_off.png" position="907,670" size="64,24" zPosition="1" />
+  <ePixmap alphatest="blend" pixmap="MetrixHD/icons/subtitle_off.png" position="862,671" size="31,23" />
+  <widget alphatest="blend" pixmap="MetrixHD/icons/subtitle_on.png" position="862,671" render="Pixmap" size="31,23" source="session.CurrentService" zPosition="1">
     <convert type="ServiceInfo">SubservicesAvailable</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-<ePixmap alphatest="blend" pixmap="MetrixHD/ico_rec_off.png" position="805,671" size="45,23" zPosition="1" />
+<ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_rec_off.png" position="805,671" size="45,23" zPosition="1" />
   
 
-<widget alphatest="blend" pixmap="MetrixHD/ico_rec_on.png" position="805,671" render="Pixmap" size="45,23" source="session.RecordState" zPosition="2">
+<widget alphatest="blend" pixmap="MetrixHD/icons/ico_rec_on.png" position="805,671" render="Pixmap" size="45,23" source="session.RecordState" zPosition="2">
 <convert type="ConditionalShowHide">Blink</convert>
 </widget>
 </screen>
@@ -293,43 +293,43 @@
 
 
 
-  <ePixmap alphatest="blend" pixmap="MetrixHD/ico_dolby_off.png" position="1030,671" size="34,23" zPosition="1" />
-  <widget alphatest="blend" pixmap="MetrixHD/ico_dolby_on.png" position="1030,671" render="Pixmap" size="34,23" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_dolby_off.png" position="1030,671" size="34,23" zPosition="1" />
+  <widget alphatest="blend" pixmap="MetrixHD/icons/ico_dolby_on.png" position="1030,671" render="Pixmap" size="34,23" source="session.CurrentService" zPosition="2">
     <convert type="ServiceInfo">IsMultichannel</convert>
     <convert type="ConditionalShowHide" />
   </widget>
 
-  <ePixmap alphatest="blend" pixmap="MetrixHD/ico_format_off.png" position="1141,671" size="43,23" zPosition="1" />
-  <widget alphatest="blend" pixmap="MetrixHD/ico_format_on.png" position="1141,671" render="Pixmap" size="43,22" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_format_off.png" position="1141,671" size="43,23" zPosition="1" />
+  <widget alphatest="blend" pixmap="MetrixHD/icons/ico_format_on.png" position="1141,671" render="Pixmap" size="43,22" source="session.CurrentService" zPosition="2">
     <convert type="ServiceInfo">IsWidescreen</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <ePixmap alphatest="blend" pixmap="MetrixHD/ico_txt_off.png" position="986,671" size="30,23" zPosition="1" />
-  <widget alphatest="blend" pixmap="MetrixHD/ico_txt_on.png" position="986,671" render="Pixmap" size="30,23" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_txt_off.png" position="986,671" size="30,23" zPosition="1" />
+  <widget alphatest="blend" pixmap="MetrixHD/icons/ico_txt_on.png" position="986,671" render="Pixmap" size="30,23" source="session.CurrentService" zPosition="2">
     <convert type="ServiceInfo">HasTelext</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <ePixmap alphatest="blend" pixmap="MetrixHD/ico_hd_off.png" position="1080,670" size="49,24" zPosition="1" />
-  <widget alphatest="blend" pixmap="MetrixHD/ico_hd_on.png" position="1080,670" render="Pixmap" size="49,24" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_hd_off.png" position="1080,670" size="49,24" zPosition="1" />
+  <widget alphatest="blend" pixmap="MetrixHD/icons/ico_hd_on.png" position="1080,670" render="Pixmap" size="49,24" source="session.CurrentService" zPosition="2">
     <convert type="ServiceInfo">VideoWidth</convert>
     <convert type="ValueRange">721,1980</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <ePixmap alphatest="blend" pixmap="MetrixHD/ico_crypt_off.png" position="1200,671" size="37,23" zPosition="1" />
-  <widget alphatest="blend" pixmap="MetrixHD/ico_crypt_on.png" position="1200,671" render="Pixmap" size="37,23" source="session.CurrentService" zPosition="2">
+  <ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_crypt_off.png" position="1200,671" size="37,23" zPosition="1" />
+  <widget alphatest="blend" pixmap="MetrixHD/icons/ico_crypt_on.png" position="1200,671" render="Pixmap" size="37,23" source="session.CurrentService" zPosition="2">
     <convert type="ServiceInfo">IsCrypted</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-  <ePixmap alphatest="blend" pixmap="MetrixHD/ico_hbbtv_off.png" position="907,670" size="64,24" zPosition="1" />
-  <ePixmap alphatest="blend" pixmap="MetrixHD/subtitle_off.png" position="862,671" size="31,23" />
-  <widget alphatest="blend" pixmap="MetrixHD/subtitle_on.png" position="862,671" render="Pixmap" size="31,23" source="session.CurrentService" zPosition="1">
+  <ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_hbbtv_off.png" position="907,670" size="64,24" zPosition="1" />
+  <ePixmap alphatest="blend" pixmap="MetrixHD/icons/subtitle_off.png" position="862,671" size="31,23" />
+  <widget alphatest="blend" pixmap="MetrixHD/icons/subtitle_on.png" position="862,671" render="Pixmap" size="31,23" source="session.CurrentService" zPosition="1">
     <convert type="ServiceInfo">SubservicesAvailable</convert>
     <convert type="ConditionalShowHide" />
   </widget>
-<ePixmap alphatest="blend" pixmap="MetrixHD/ico_rec_off.png" position="805,671" size="45,23" zPosition="1" />
+<ePixmap alphatest="blend" pixmap="MetrixHD/icons/ico_rec_off.png" position="805,671" size="45,23" zPosition="1" />
   
 
-<widget alphatest="blend" pixmap="MetrixHD/ico_rec_on.png" position="805,671" render="Pixmap" size="45,23" source="session.RecordState" zPosition="2">
+<widget alphatest="blend" pixmap="MetrixHD/icons/ico_rec_on.png" position="805,671" render="Pixmap" size="45,23" source="session.RecordState" zPosition="2">
 <convert type="ConditionalShowHide">Blink</convert>
 </widget>
 
